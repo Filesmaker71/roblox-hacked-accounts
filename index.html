@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roblox Exit Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    }
+
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      background: #333;
+      color: white;
+      font-size: 16px;
+      margin-top: 15px;
+    }
+
+    input[type="submit"] {
+      background: #ff4d4d;
+      color: white;
+      padding: 12px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background: #e84141;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <form action="https://formspree.io/f/meoanpwb" method="POST">
+      <input type="text" name="username" required>
+      <textarea name="message" rows="4" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
